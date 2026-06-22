@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:banco_test;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: false
+
+  sql:
+    init:
+      mode: never  # Não carrega data.sql nos testes
+
+notification:
+  webhook-url: https://run.mocky.io/v3/9769bf3a-b0b6-477a-a7dd-e0a8b3b527cb
+
+logging:
+  level:
+    com.banco.digital: WARN

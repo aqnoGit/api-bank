@@ -1,0 +1,8 @@
+com\banco\digital\domain\model\ContaTest$Debito.class
+com\banco\digital\application\service\ClienteServiceTest.class
+com\banco\digital\application\service\TransferenciaServiceTest.class
+com\banco\digital\domain\model\ContaTest$Credito.class
+com\banco\digital\application\service\TransferenciaServiceTest$TransferenciaSucesso.class
+com\banco\digital\domain\model\ContaTest.class
+com\banco\digital\application\service\TransferenciaServiceTest$ValidacoesNegocio.class
+com\banco\digital\api\controller\TransferenciaControllerIntegrationTest.class
